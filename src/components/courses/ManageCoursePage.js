@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import CourseForm from "./CourseForm";
 import { newCourse } from "../../../tools/mockData";
 import Spinner from "../common/Spinner";
-import { Toast, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 function ManageCoursePage({
   courses,
